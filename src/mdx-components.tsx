@@ -6,6 +6,13 @@ import { Tabs, Tab } from '@/components/ui/tabs';
 import { Timeline, TimelineItem } from '@/components/ui/timeline';
 import { Quote } from '@/components/ui/quote';
 import { Feature } from '@/components/ui/feature';
+import { TeamRoles } from '@/components/ui/team-roles';
+import { TeamRolesByRole } from '@/components/ui/team-roles-by-role';
+import { Department } from '@/components/ui/department';
+import { ProjectStage } from '@/components/ui/project-stage';
+import { DevLog } from '@/components/ui/dev-log';
+import { HighlightCard } from '@/components/ui/highlight-card';
+import { TeamGrid } from '@/components/ui/team-grid';
 
 // use this function to get MDX components, you will need it for rendering MDX
 export function getMDXComponents(components?: MDXComponents): MDXComponents {
@@ -20,6 +27,13 @@ export function getMDXComponents(components?: MDXComponents): MDXComponents {
     TimelineItem,
     Quote,
     Feature,
+    TeamRoles,
+    TeamRolesByRole,
+    Department,
+    ProjectStage,
+    DevLog,
+    HighlightCard,
+    TeamGrid,
     ...components,
   };
 }
