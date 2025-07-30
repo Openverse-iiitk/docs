@@ -30,7 +30,7 @@ export function TimelineItem({ title, description, date, children, className }: 
         <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 12 12"><circle cx="6" cy="6" r="6"/></svg>
       </span>
       <h3 className="font-semibold text-lg text-foreground">{title}</h3>
-      {date && <time className="block mb-2 text-xs text-muted-foreground">{date}</time>}
+      {date && <time className="block mb-2 text-sm font-semibold text-muted-foreground">{date}</time>}
       {description && <p className="mb-2 text-sm text-muted-foreground">{description}</p>}
       {children}
     </li>
