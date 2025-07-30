@@ -1,0 +1,117 @@
+---
+title: Algorithima – DSA Website
+description: Interactive visualizer for core data structures and algorithms built by Openverse.
+---
+
+# Algorithima: DSA Visualizer
+
+<Callout type="info">Algorithima is a real‑time DSA visualizer that syncs code execution with animations for clear learning.</Callout>
+
+Built and maintained by the Openverse club at IIIT Kottayam.
+
+## Features 📊
+
+<Cards>
+  <Card title="Linked Lists" description="Singly & doubly linked lists with memory animation" />
+  <Card title="Stacks & Queues" description="Execute push/pop with visual memory pointers" />
+  <Card title="Sorting" description="See merge, quick, bubble step-by-step" />
+  <Card title="Pathfinding" description="Visualize A* and Dijkstra over a grid" />
+</Cards>
+
+## User Experience
+
+<Steps>
+  <Step>Play, pause, step through each operation</Step>
+  <Step>Adjust speed and input values</Step>
+  <Step>View real‑time code and memory pointer sync</Step>
+</Steps>
+
+- Fully responsive for all devices
+- Dark theme and accessibility support
+- Intuitive controls and real-time feedback
+
+## Technical Stack
+
+<TypeTable>
+| Tech            | Purpose/Usage                       |
+|-----------------|-------------------------------------|
+| React 19        | UI framework                        |
+| Vite 6          | Build tool                          |
+| Framer Motion   | Animations                          |
+| Monaco Editor   | Code editor integration             |
+| GitHub Actions  | CI/CD                               |
+| Firebase Hosting| Deployment                          |
+</TypeTable>
+
+Folder structure highlights:
+
+- `src/features/linkedList/`
+- `src/features/sorting/`
+- ...etc.
+
+## Project Structure
+
+<Files>
+  <Folder name="src">
+    <Folder name="features">
+      <File name="linkedList" />
+      <File name="sorting" />
+      <File name="tree" />
+      <File name="pathfinding" />
+    </Folder>
+    <File name="main.jsx" />
+    <File name="App.jsx" />
+  </Folder>
+  <File name="README.md" />
+  <File name=".github/workflows/build.yml" />
+</Files>
+
+## Getting Started (Contributors)
+
+<Steps>
+  <Step>Fork and clone the repo</Step>
+  <Step>Run <code>npm install</code></Step>
+  <Step>Use <code>npm run dev</code> and visit <code>http://localhost:5173</code></Step>
+  <Step>Run <code>npm run build</code> and <code>npm run preview</code></Step>
+</Steps>
+
+You can contribute code, documentation, or UI/UX improvements.
+
+
+## How To Contribute
+
+- Use PR templates and follow issue labels
+- Ensure tests and code quality before submitting
+- See [CONTRIBUTING.md](https://github.com/Openverse-iiitk/algorithima/blob/main/CONTRIBUTING.md) for full guidelines
+
+<Accordion>
+  <AccordionItem title="Contribution Steps ->">
+    <ul>
+      <li>Fork the repo and create a feature branch</li>
+      <li>Open a pull request with a clear description</li>
+      <li>Link related issues and request reviews</li>
+    </ul>
+  </AccordionItem>
+  <AccordionItem title="Code Quality ->">
+    <ul>
+      <li>Write clear, maintainable code</li>
+      <li>Add or update tests as needed</li>
+      <li>Document your changes</li>
+    </ul>
+  </AccordionItem>
+</Accordion>
+
+## Showcase & Demo
+
+- [Live Demo](https://visualalgo-ov.web.app)
+- <Banner href="https://visualalgo-ov.web.app" text="Try the Demo or Report Feedback" />
+
+## TL;DR Summary
+
+<Callout type="note">
+TL;DR: This is Algorithima — a rich DSA visualizer built by Openverse with React & Vite, designed for learning, contribution, and technical credibility.
+</Callout>
+
+- [GitHub Repo](https://github.com/Openverse-iiitk/algorithima)
+- [Contribution Guide](https://github.com/Openverse-iiitk/algorithima/blob/main/CONTRIBUTING.md)
+- [Live Demo](https://visualalgo-ov.web.app)
